@@ -1,0 +1,4 @@
+[0m[[0m[33mwarn[0m] [0m[0mD:\ITI\scala\scala_rule_engine\src\main\scala\engine\rules.scala:47:21: Widening conversion from Long to Double is deprecated because it loses precision. Write `.toDouble` instead. [quickfixable][0m
+[0m[[0m[33mwarn[0m] [0m[0m    (30 - rem_days) / 100[0m
+[0m[[0m[33mwarn[0m] [0m[0m                    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
