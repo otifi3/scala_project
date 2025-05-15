@@ -75,7 +75,7 @@ src/
 │       ├── AppLogger.scala   # Logger configuration
 │       └── db.scala          # Database connection utility
 └── resources/
-└── TRX1000.csv               # Input CSV file with order transactions
+│      └── TRX1000.csv        # Input CSV file with order transactions
 logs/
 └── rule\_engine.log          # Log file generated during execution
 ````
