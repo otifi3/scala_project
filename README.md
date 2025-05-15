@@ -1,4 +1,4 @@
-```markdown
+
 # Scala Rule Engine for Retail Order Discounts
 
 ## Table of Contents
@@ -168,5 +168,3 @@ If multiple discounts apply, the **top 2 discounts** are averaged for final disc
 
 Created by Ahmed Otifi  
 🔗 GitHub: [https://github.com/otifi3](https://github.com/otifi3)
-
----
