@@ -129,7 +129,7 @@ CREATE TABLE processed_orders_2 (
 | Quantity 10-14                      | 7% discount                                            |
 | Quantity 15+                        | 10% discount                                           |
 | Sold via App                        | Discount based on rounded quantity in multiples of 5   |
-| Payment via Visa                    | 50% discount                                           |
+| Payment via Visa                    | 5% discount                                            |
 
 If multiple discounts apply, the **top 2 discounts** are averaged for final discount.
 
