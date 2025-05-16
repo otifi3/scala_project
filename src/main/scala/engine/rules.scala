@@ -88,7 +88,7 @@ object rules extends App {
 
     val is_visa: BoolFunc = order => order.payment_method == "Visa"
 
-    val visa_discount: DiscountFunc = _ => 0.5
+    val visa_discount: DiscountFunc = _ => 0.05
 
     // ------------------------------list of rules-------------------------------
     def get_discountFunctions(): List[(BoolFunc, DiscountFunc)] = List(
