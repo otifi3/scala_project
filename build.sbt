@@ -13,10 +13,6 @@ libraryDependencies += "org.scala-lang.modules" %% "scala-parallel-collections" 
 libraryDependencies += "org.postgresql" % "postgresql" % "42.7.3"
 libraryDependencies += "com.github.pathikrit" %% "better-files" % "3.9.2"
 
-
-
-libraryDependencies += "com.github.pathikrit" %% "better-files" % "3.9.2"
-
 libraryDependencies ++= Seq(
     "org.apache.spark" %% "spark-core" % "3.4.0",
     "org.apache.spark" %% "spark-sql" % "3.4.0",
