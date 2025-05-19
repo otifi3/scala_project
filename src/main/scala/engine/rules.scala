@@ -212,8 +212,8 @@ object rules extends App {
      * Discount based on app orders rounded quantity tiers.
      */
     val app_discount: DiscountFunc = order => {
-      val roundedQuantity = ((order.quantity + 4) / 5) * 5
-      (roundedQuantity / 5) * 5 / 100.0
+      val roundedQuantity = math.min(((order.quantity + 4) / 5) * 5
+      (roundedQuantity / 5) * 5 / 100.0, 0.2)
     }
 
     /**
