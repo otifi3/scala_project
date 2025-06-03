@@ -215,6 +215,7 @@ object rules extends App {
      *math.min(roundedQuantity * 0.05, 0.2)
     *}
      */
+     
     val app_discount: DiscountFunc = order => {
       val roundedQuantity = math.min(((order.quantity + 4) / 5) * 5, order.quantity)
       math.min((roundedQuantity / 5) * 5 / 100.0, 0.2)
